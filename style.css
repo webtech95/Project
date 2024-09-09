@@ -1,0 +1,102 @@
+*{ margin: 5px 5px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:Buttercup ;
+    src: url(Fonts/Buttercup.ttf);
+}
+@font-face {
+    font-family: Road_Rage;
+    src: url(Fonts/Road_Rage.ttf);
+}
+
+/* Project 1 link */
+#project1{
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.project-heading h5{
+    color: #888888;
+    font-size:12px;
+    letter-spacing: 5px;
+    line-height: 26.25px;
+    font-family:Buttercup;
+    text-transform: uppercase;
+}
+.project-heading h2{
+    color: #101010;
+    letter-spacing: 3px;
+    line-height: 52.5px;
+    font-family: Road_Rage;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.parent-project1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.child-project2{
+    font-family: Rambla, sans-serif;
+}
+.child-project2 h2{
+    font-size: 24px;
+    line-height: 42px;
+    color: #101010;
+    font-weight: 700;
+    font-family: Road_Rage;
+}
+.child-project2{
+    color: #888;
+    font-size: 15px;
+    line-height: 26.25px;
+}
+.child-project3{
+    color: #888;
+    font-size: 15px;
+    line-height:normal;
+    font-family: Rambla, sans-serif;
+    padding-top: 10px;
+    
+}
+.child-project3 b{
+    color: #101010;
+    font-family: Road_Rage;
+}
+/* Footer */
+#footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding: 120px;
+    background-color: #f7f7f7;
+}
+.parent-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.parent-footer1{
+    font-family: Rambla, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #101010;
+}
+.parent-footer2{
+    font-family: Road_Rage ;
+    letter-spacing: 3px;
+    line-height: 30px;
+    color: #101010;
+}
+.parent-footer2 h4{
+    font-weight: 500;
+    font-size: 40px;
+}
+.parent-footer h2{
+    font-size: 13px;
+    font-weight: 400;
+}
+.parent-footer3{
+    align-items: baseline;
+}
