@@ -99,6 +99,9 @@
     align-items: baseline;
 }
 @media only screen and (max-width:600px) {
+    #project{
+        padding: 0 0 ;
+    }
     .parent-project1{
         flex-direction: column;
     }
@@ -106,13 +109,19 @@
         width: 100%;
         height: auto;
     }
+    .child-project2{
+        padding: 0 0 ;
+    }
+    #footer{
+        padding: 20px 20px;
+    }
     .parent-footer{
         flex-direction: column;
     }
     .parent-footer1{
-        padding-bottom: 50px;
+        padding-bottom: 30px;
     }
     .parent-footer2{
-        padding-bottom: 40px;
+        padding-bottom: 20px;
     }
 }
