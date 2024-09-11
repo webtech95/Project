@@ -1,4 +1,4 @@
-*{ margin: 5px 5px;
+*{ margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
@@ -13,8 +13,7 @@
 
 /* Project 1 link */
 #project1{
-    padding-top: 60px;
-    padding-bottom: 100px;
+  padding: 60px 20px;
 }
 
 .project-heading h5{
@@ -40,6 +39,7 @@
 }
 .child-project2{
     font-family: Rambla, sans-serif;
+    padding-left: 20px;
 }
 .child-project2 h2{
     font-size: 24px;
@@ -67,8 +67,6 @@
 }
 /* Footer */
 #footer{
-    padding-top: 40px;
-    padding-bottom: 40px;
     padding: 120px;
     background-color: #f7f7f7;
 }
@@ -99,4 +97,22 @@
 }
 .parent-footer3{
     align-items: baseline;
+}
+@media only screen and (max-width:600px) {
+    .parent-project1{
+        flex-direction: column;
+    }
+    .child-project1 img{
+        width: 100%;
+        height: auto;
+    }
+    .parent-footer{
+        flex-direction: column;
+    }
+    .parent-footer1{
+        padding-bottom: 50px;
+    }
+    .parent-footer2{
+        padding-bottom: 40px;
+    }
 }
